@@ -1,0 +1,201 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="ICON" href="./images/pngegg.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login And Sign in Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+        .div{
+            text-align: center;
+            display: inline-flex;
+            padding-right: 294.5px;
+            padding-top: 69px;
+            padding-bottom: 69px;
+            background-image: url(./images/pexels-nelson-ribeiro-2313677.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .four{
+            margin-left: 280px;
+            background-color: aqua;
+            width: 300px;
+            border-radius: 17px;
+        }
+        .three{
+            margin-left: 100px;
+            width: 300px;
+            background-color: lightgreen;
+            margin-top: 0;
+            border-radius: 17px;
+        }
+        input{
+            padding: 7px 80px 7px 10px;
+            border-radius: 20px;
+        }
+        #one{
+            padding: 5px 80px;
+            border-radius: 12px;
+            background-color: violet;
+            color: white;
+        }
+        .button{
+            padding: 5px 107px;
+            border-radius: 20px;
+            background-color: violet;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+        #para1{
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 5px 30px; 
+            margin: 0px 30px;
+        }
+        #para2{
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 3px 0px; 
+            margin: 0px 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <img src="./images/pngegg.png" alt="Logo" style="width: 75px;">
+        <h1 class="headerh1">Royal Mechanical</h1>
+        <div class="searchbar">
+            <button type="button" class="micro"><i class="fas fa-microphone"></i></button>
+        <input type="text" placeholder="Search Your Enquries......." id="input">
+        <button type="button" class="micro"style="background: transparent; border: none;"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-bell" style="padding-left: 10px;"></i>
+        <i class="fa-solid fa-heart" style="padding-left: 7px;"></i>
+        <i class="fa-solid fa-message" style="padding-left: 2px;"></i>
+        <i class="fa-solid fa-bookmark"></i>
+        <i class="fa-sharp fa-solid fa-share-nodes"></i>
+        <i class="fa-solid fa-user" style="padding-right: 8px;"></i> <br>
+        <p>Notifi.. fav..  chat  saved  share profile</p>
+        </div>
+    </header>
+
+    <!-- NAVIGATION BAR -->
+
+    <nav>
+        <ul>
+            <li><a href="./index.html" style="background-color: chocolate; color: white; padding-left: 5px;"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="./ht.html">HT</a></li>
+            <li><a href="./dmm2.html">DMM-2</a></li>
+            <li><a href="./AI&Ml.html">AI&ML</a></li>
+            <li><a href="./ir.html">IR</a></li>
+            <li><a href="./ae.html">AE</a></li>
+            <!-- <li><a href="./ipr.html">IPR</a></li> -->
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- BANNER -->
+
+    <div class="divback">
+        <div class="divback1">
+            <h1>Register Here!</h1><br><br><br>
+        </div>
+    </div>
+    <br><br><br>
+    <h1 id="h1heading">Create Your Free Account....!!!</h1><br><br><br>
+    <div class="div">
+        <div class="four"><br>
+
+            <!-- FORM SIGN IN PAGE -->
+
+            <h2>Sign in</h2><br>
+            <form>
+                <input type="text" placeholder="Username Or Email"><br><br>
+                <input type="password" placeholder="Password"><br><br>
+                <p style="margin-right: 140px;"><input type="Checkbox"> Remember me</p><br>
+                <button class="button">Sign in</button><br><br>
+                <a href="#">Forgot password ?</a><br><br>
+                <p>----------------------Or------------------------</p><br>
+                <p id="para1"><img src="./images/NicePng_google-logo-white-png_134988.png" style="width: 20px; padding-top: 5px;" alt=""> <a href="#">Continue with google</a></p><br><br>
+                <p id="para2"><img src="./images/logo-facebookpng-32247.png" style="width: 27px; padding-top: 5px;" alt=""> <a href="#">Continue with facebook</a></p><br><br>
+                <p>Don't have an account ? <a href="#">Sign Up</a></p> <br>
+            </form>
+        </div>
+
+        <!-- FORM SIGNUP PAGE -->
+
+        <div class="three"><br>
+            <h2>Create new account</h2><br>
+            <form>
+                <input type="text" placeholder="Name" ><br><br>
+                <input type="email" placeholder="Email" ><br><br>
+                <input type="password" placeholder="Password" ><br><br>
+                <input type="checkbox"> I agree with <a href="#">Terms and Conditions</a><br><br>
+                <button id="one">Create account</button><br><br><br><br><br>
+                <p>Already have an account ? <a href="#">Sing in</a></p><br><br><br>
+                <p><a href="./index.html" style="text-decoration: none;">Back To Home</a></p>
+            </form>
+
+        </div>
+    </div>
+
+    <br><br>
+        <marquee style="color: red;"><h2>Thank You For Visiting...!</h2></marquee>
+    <br><br>
+
+    <!-- FOOTER BANNER -->
+    <div class="eight">
+        <ul>
+            <li><h2>OUR SERVICES</h2></li>
+            <li><a href="./ht.html">Heat Transfer MCQs</a></li>
+            <li><a href="./dmm2.html">DMM-2 MCQs</a></li>
+            <li><a href="./AI&Ml.html">AI&ML MCQs</a></li>
+            <li><a href="./ir.html">Industrial Robotics MCQs</a></li>
+            <li><a href="./ae.html">Automobile Engineering MCQs</a></li>
+            <!-- <li><a href="./ipr.html">Itelectual property Rights MCQs</a></li> <br> -->
+        </ul>
+        <div class="nine">
+            <h2>For Notifications!</h2> <br> <br>
+            <form>
+                <input type="email" placeholder="Your Email" required> <br><br> <br>
+                <button>Subscribe Now</button>
+            </form>
+            <br>
+            <div class="eleven">
+                <a href="https://www.linkedin.com/in/venkata-rama-satyanarayana-katta-b5116224a/" target="_blank"><img src="./images/LinkedIn_Logo_2019-1536x384.png" alt="Linkedein" width="80px" style="color: white; padding-bottom: 15px;"></a>
+            <a href="https://www.instagram.com/its_me_ram_stylish/" target="_blank"><img src="./images/instagram-logo-7596E83E98-seeklogo.com.png" alt="instagram" width="60px" style="margin-left: 10px; margin-top: 10px;"></a>
+            </div>
+        </div>
+        <div class="ten">
+            <h2>Address : </h2>
+            <p>Door No: 1-47 , Santha market <br>
+                Katrenikona , Katrenikona Mandal <br> Konaseema District, Andhra Pradesh <br> India. <br>
+                Name : K. V. R. SATYANARAYANA  <br> 
+                contact No : +918096334401 <br>
+                <a href="./contact.html">Contact Us</a> <br>
+                <a href="#">Privacy and Policy</a> <br>
+                <a href="./about.html">About Me</a>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p id="footpara">Copyright <span style="font-size: 23px
+        ;">&copy;</span>  2023 WWW.Royal Mechanical.COM. All Rights Reserved By  <a href="https://github.com/satya8096" target="_blank" style=" color: white;">Satya8096.</a></span> Developed By K. V. R. SATYANARAYANA </p>
+    </footer>
+</body>
+</html>
